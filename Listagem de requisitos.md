@@ -33,7 +33,7 @@
         public class ArrayOps {
             private /*@ spec_public @*/ Object[] a;
 
-            #//@ public invariant 0 < a.length;#
+            # //@ public invariant 0 < a.length;
 
             /*@ requires 0 < arr.length;
             @ ensures this.a == arr;
